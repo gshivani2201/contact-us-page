@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: rgb(76,30,205);
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+img {
+    height: 18rem;
+    /* height: 100%;
+    min-width: auto; */
+}
+
+.img-section, .side-section {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    overflow: hidden;
+}
+
+.side-section {
+    padding: 2rem;
+    /* margin: 0.5rem 0; */
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.first-container, .second-container, .third-container {
+    margin: 1rem 0;
+}
+
+.fa-solid {
+    color: rgb(76,30,205);
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span {
+    font-size: 0.8rem;
+    color: rgb(76,30,205);
+}
+
+#contact-info {
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    background-color: white;
+    color: rgb(76,30,205);
+}
+
+#contact-info :hover {
+    background-color: rgb(76,30,205);
+    color: white;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+label {
+    margin-bottom: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.third-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-regular {
+    color: rgb(76,30,205);
+    position: absolute;
+
+}
+
+input, textarea {
+    border: 1px solid rgb(76,30,205);
+    border-radius: 0.5rem;
+    color: rgb(76,30,205);
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    background-color: rgb(241, 241, 241);
+}
+
+input:focus {
+    border: none;
+}
+
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(76,30,205,.5);
+}
+
+#name, #email, #number {
+    margin-bottom: 2.1rem;
+    width: 13rem;
+}
