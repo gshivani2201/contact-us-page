@@ -35,7 +35,7 @@ body {
 
 .side-section {
     padding: 2rem 3rem;
-    border-radius: 0 0.5cm 0.5cm 0;
+    border-radius: 0 0.5rem 0.5rem 0;
     width: 50%;
     background-color: white;
 }
@@ -85,9 +85,16 @@ span {
     color: white;
 }
 
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 h4 {
     font-size: 0.8rem;
     font-weight: 700;
+    width: 100%;
 }
 
 button {
@@ -100,6 +107,8 @@ button {
     font-weight: 700;
     padding: 0.5rem;
     margin-top: 0.7rem;
+    gap: 1rem;
+    align-content: flex-end;
 }
 
 label {
